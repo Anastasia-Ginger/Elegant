@@ -123,6 +123,7 @@
         width: 100%;
         text-align: left;
         font-size: 14px;
+        padding-left: 14px;
     }
     .about_page.main {
         background-image: url("../images/about_mobile_01.jpg");
