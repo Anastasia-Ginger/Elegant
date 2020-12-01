@@ -92,7 +92,6 @@
     }
     .half-left {
         width: 100%;
-        padding-left: 28px;
     }
     .half-right {
         width: 100%;
@@ -124,6 +123,15 @@
         width: 100%;
         text-align: left;
         font-size: 14px;
-
+    }
+    .about_page.main {
+        background-image: url("../images/about_mobile_01.jpg");
+    }
+    .services .half-right div {
+        width: 100%;
+    }
+    .services .half-right div p {
+        padding-top: 50px;
+        padding-bottom: 0px;
     }
 }
