@@ -7,9 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/b7b8f8e213.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/media-queries.css">
@@ -40,7 +43,23 @@
             sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum
             claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo
             typi, qui nunc, fiant sollemnes in futurum.</p>
-        <div class="button"><a href="https://anastasia-ginger.github.io/Elegant/About">Read More About Us</a></div>
+        <!--<div class="button"><a href="https://anastasia-ginger.github.io/Elegant/About">Read More About Us</a></div>
+-->
+
+        <div id="dialog" title="Forgot your password?">
+            <!--<div>Forgot your password?</div>-->
+            <form action="#" method="post" class="dialog-form">
+                <label for="email"> Enter your <br> Email </label>
+                <input id="email" type="text">
+                <button type="reset" class="dialog-button">resert password</button>
+                <p>or</p>
+                <button type="submit" class="dialog-button-blue"> <i class="fab fa-facebook-f"></i> log in using facebook</button>
+            </form>
+        </div>
+
+        <button id="opener">Open Dialog</button>
+
+
     </div>
     <div class="content_block">
         <h3>What we do</h3>
@@ -62,7 +81,8 @@
         <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes
             demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus,
             qui sequitur mutationem consuetudium lectorum.</p>
-        <div class="d-flex d-wrap space-between">
+
+        <div class="owl-carousel">
             <div class="team">
                 <img src="images/CEO_03.jpg" alt="photo">
                 <h3>CEO</h3>
@@ -83,7 +103,28 @@
                 <h4>Ricki Hall</h4>
                 <p>Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut
                     laoreet dolore.</p>
+            </div><div class="team">
+            <img src="images/CEO_03.jpg" alt="photo">
+            <h3>CEO</h3>
+            <h4>Tobias Schneider</h4>
+            <p>Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore.</p>
+        </div>
+            <div class="team">
+                <img src="images/designer_05.jpg" alt="photo">
+                <h3>designer</h3>
+                <h4>Jack Knife</h4>
+                <p>Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore.</p>
             </div>
+            <div class="team">
+                <img src="images/developer_07.jpg" alt="photo">
+                <h3>developer</h3>
+                <h4>Ricki Hall</h4>
+                <p>Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore.</p>
+            </div>
+        </div>
         </div>
     </div>
     <div class="content_block container">
@@ -147,5 +188,9 @@
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>

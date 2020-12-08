@@ -145,7 +145,6 @@ h2 {
     justify-content: space-between;
 }
 .team {
-    width: 32%;
     margin-left: 2px;
     margin-right: 2px;
     padding-bottom: 46px;
@@ -316,4 +315,128 @@ footer p {
 }
 .services .half-right {
     align-items: flex-end;
+}
+.owl-dots .owl-dot {
+    outline: none;
+    margin: 15px 5px;
+}
+.owl-dots .owl-dot span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #747a7f;
+    border-radius: 50%;
+}
+.owl-dots .owl-dot.active span {
+    background-color: black;
+}
+.blog_page.main {
+    background-image: url("../images/blog_main_01.jpg");
+    align-items: center;
+}
+#opener {
+    display: inline-block;
+    height: 55px;
+    min-width: 238px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #021725;
+    border: 1px solid #000000;
+    background-color: transparent;
+}
+.ui-dialog-titlebar {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.ui-dialog {
+    max-width: 750px!important;
+    width: 100%!important;
+    padding: 0px;
+}
+.ui-widget-header {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    background-color: transparent;
+    border: none;
+    color: black;
+    top: -10px;
+    right: -30px;
+    width: 30px;
+    height: 30px;
+}
+.dialog-form {
+    display: inline-block;
+    max-width: 580px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap ;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.dialog-form label {
+    max-width: 160px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #363636;
+    margin: 50px 10px 10px 0px;
+}
+.dialog-form input {
+    max-width: 384px;
+    width: 100%;
+    margin: 50px 0px 10px 25px;
+    padding: 4px;
+    font-size: 20px;
+    border: 1px solid #797777;
+    outline: none;
+}
+.dialog-form .dialog-button {
+    max-width: 538px;
+    width: 100%;
+    margin: auto;
+    background-color: #d5d5d5;
+    height: 60px;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 30px 0px;
+    border: none;
+    outline: none;
+}
+.dialog-form .dialog-button-blue {
+    max-width: 538px;
+    width: 100%;
+    height: 60px;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 30px 0px;
+    border: none;
+    outline: none;
+    background-color: #557bcc;
+    color: white;
+}
+.dialog-form p {
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: black;
+}
+.ui-dialog .ui-dialog-content {
+    text-align: center;
+}
+.ui-dialog .ui-widget-content {
+    text-align: center;
 }
